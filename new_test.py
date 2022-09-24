@@ -1,7 +1,7 @@
 from pyzabbix  import ZabbixAPI
 import datetime
 import time
-zapi=ZabbixAPI(server="http://192.168.112.4/zabbix")
+zapi=ZabbixAPI(server="http://192.168.44.4/zabbix")
 try:
    #zapi.login(user="userforapi",password="'Pakkass##18!'")
    zapi.login(user="Admin",password="zabbix")
