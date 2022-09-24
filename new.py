@@ -1,9 +1,8 @@
 from pyzabbix  import ZabbixAPI
 import datetime
 import time
-zapi=ZabbixAPI(server="http://192.168.112.3/zabbix")
-try:
-   #zapi.login(user="jklrahamta",password="ECE@BJIT110943#")
+zapi=ZabbixAPI(server="http://192.168.12.3/zabbix")
+try
    zapi.login(user="Admin",password="zabbix")
    print("Yes Connected")
    count=0
