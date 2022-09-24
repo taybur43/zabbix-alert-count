@@ -1,11 +1,11 @@
 #!/usr/bin/python
 from pyzabbix  import ZabbixAPI
 def conn():
- zapi=ZabbixAPI(server="http://zabbix.valmet.com/zabbix")
+ zapi=ZabbixAPI(server="http://zabbix.test.com/zabbix")
  #zapi=ZabbixAPI(server="http://192.168.112.3/zabbix")
- #zapi=ZabbixAPI(server="http://zabbix-test.valmet.com/zabbix")
+ #zapi=ZabbixAPI(server="http://zabbix-test.test.com/zabbix")
  try:
-    zapi.login(user="jklrahamta",password="ECE@1109043BJIT#")
+    zapi.login(user="user_name",password="password")
     #zapi.login(user="Admin",password="zabbix")
     print("Yes Connected")
  except:
